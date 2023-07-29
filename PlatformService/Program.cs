@@ -27,3 +27,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+PrepDb.PrepPopulation(app);
